@@ -9,7 +9,7 @@ void setup()
 void loop()
 {
   lcd.setCursor(0,0);
-  if(Serial.available())
+  if(Serial.available()>0)
   {
     delay(100);
     lcd.clear();
